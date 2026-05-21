@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Вход - Аудиокниги</title>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h1 class="first-name">🎧 Вход</h1>
+                <p>Войдите в свою библиотеку аудиокниг</p>
+            </div>
+            <form id="loginForm" class="auth-form">
+                <div class="input-group">
+                    <label>👤 Имя пользователя</label>
+                    <input type="text" name="username" placeholder="Введите имя" required>
+                </div>
+                <div class="input-group">
+                    <label>🔒 Пароль</label>
+                    <input type="password" name="password" placeholder="Введите пароль" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="rememberMe" name="rememberMe">
+                    <label for="rememberMe">Запомнить меня</label>
+                </div>
+                <button type="submit" class="btn-submit">Войти</button>
+                <div class="auth-footer">
+                    Нет аккаунта? <a href="register.html">Зарегистрироваться</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
