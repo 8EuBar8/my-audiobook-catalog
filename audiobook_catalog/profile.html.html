@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Профиль - Аудиокниги</title>
+</head>
+<body>
+    <header>
+        <h1 class="first-name">👤 Профиль</h1>
+    </header>
+
+    <main>
+        <div class="profile-container">
+            <div class="profile-card">
+                <div class="profile-avatar">
+                    <img src="static/img/free-icon-font-profile.png" alt="Аватар">
+                </div>
+                <div class="profile-stats">
+                    <div class="stat">
+                        <span class="stat-value" id="favoriteCount">0</span>
+                        <span class="stat-label">В избранном</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="lovedCount">0</span>
+                        <span class="stat-label">Любимых</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="listenedCount">0</span>
+                        <span class="stat-label">Прослушано</span>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <div class="info-row">
+                        <span class="info-label">Имя:</span>
+                        <span class="profile-title"></span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Email:</span>
+                        <span class="profile-email"></span>
+                    </div>
+                </div>
+                <div class="profile-actions">
+                    <button class="btn-danger" id="logoutBtn">🚪 Выйти</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+            <div class="navigation-btn">
+                <a href="index.html">
+                    <img src="static/img/free-icon-font-home.png" alt="Главная">
+                    <span>Главная</span>
+                </a>
+            </div>
+            <div class="navigation-btn">
+                <a href="search.html">
+                    <img src="static/img/free-icon-font-search.png" alt="Поиск">
+                    <span>Поиск</span>
+                </a>
+            </div>
+            <div class="navigation-btn">
+                <a href="book.html">
+                    <img src="static/img/free-icon-font-book.png" alt="Мои книги">
+                    <span>Мои</span>
+                </a>
+            </div>
+            <div class="navigation-btn">
+                <a href="profile.html">
+                    <img src="static/img/free-icon-font-profile.png" alt="Профиль">
+                    <span>Профиль</span>
+                </a>
+            </div>
+        </div>
+    </main>
+    <script src="script/script.js"></script>
+</body>
+</html>
